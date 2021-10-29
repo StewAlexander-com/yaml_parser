@@ -8,3 +8,5 @@ saves in a yaml file called "outputs.yaml
 ```
 ---
 * This code requires pyyaml, to install install it use "```pip install pyyaml```"
+* I created this as I use saltstack to routinely gather the list of interfaces on my network; it returns output in yaml, and this allows
+me to search the output, regardless of the editor I have available
