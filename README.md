@@ -7,6 +7,7 @@ Then one can ask for the value of a key by typing the key name in the terminal, 
 saves in a yaml file called "outputs.yaml
 ```
 ---
-* This code requires pyyaml, to install install it use "```pip install pyyaml```"
+* This code requires python3 and pip3
+* This code also requires the pyyaml library, to install install it use "```pip install pyyaml```"
 * I created this as I use saltstack to routinely gather the list of interfaces on my network; it returns output in yaml, and this allows
 me to search the output, regardless of the editor I have available
