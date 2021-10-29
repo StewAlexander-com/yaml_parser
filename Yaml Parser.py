@@ -20,7 +20,7 @@ path = os.path.dirname(os.path.realpath(__file__))
 #show the contents of the curent directory
 print ("The current directory is: " + path, ",and the list of contents is:\n")
 print(os.listdir())
-#ask the user to enter the yaml file name
+#ask the user to enter the yaml file name in the current path
 yaml_file = input("Enter the yaml file name: ")
 
 
