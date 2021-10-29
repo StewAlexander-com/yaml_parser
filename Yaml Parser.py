@@ -11,7 +11,7 @@ key = 0
 #Then one can ask for the value of a key by typing the key name in the terminal, which it also
 #saves in a yaml file called "outputs.yaml"
 
-print ("\nThis is a Program to parse a yaml file and print the keys in a new file called \"keys.txt\ \n\n")
+print ("\nThis is a Program to parse a yaml file and print the keys in a new file called \"keys.txt\" \n\n")
 print ("This program also displays the values of an available key, as well as outputing them to a file")
 print ("called outputs.yaml\n\n")
 
