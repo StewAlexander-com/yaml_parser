@@ -43,21 +43,24 @@ with open(yaml_file, 'r') as stream:
 #sort the keys in the dictionary in alphabetical order
 keys = sorted(data.keys())
 
-#collect 10 keys from the dictionary at a time and print them to the screen
-for i in range(0, len(keys), 10):
-    print("\n\n")
-    print("The keys are: ")
-    for j in range(i, i+10):
-        print(keys[j])
-    if input("Type \"s\" to stop  showing the key list, or press enter to continue: ") == "s":
-        break
-    else:
-        continue
-
 #pretty print the keys of the dictionary to a file called keys.txt
 with open("keys.txt", "w") as f:
     for key in keys:
         f.write(str(key) + "\n")
+
+#Search keys.txt for all partial string matches
+while True: 
+    key = input("\nEnter the key you want to search for, \"s\" for stop: ")
+    if key == "s":
+        break
+    else:
+        with open("keys.txt", "r") as f:
+            for line in f:
+                if key in line:
+                    print(line)
+                else:
+                    continue
+
   
 # loop if the the key is found in the dictionary, othterwise print "key not found" until the user enters "q"
 while key != "q":
