@@ -7,4 +7,4 @@ Then one can ask for the value of a key by typing the key name in the terminal, 
 saves in a yaml file called "outputs.yaml
 ```
 ---
-* This code requires pyyaml, to install install it via "```pip install pyyaml```"
+* This code requires pyyaml, to install install it use "```pip install pyyaml```"
