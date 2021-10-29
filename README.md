@@ -12,4 +12,4 @@ saves in a yaml file called "outputs.yaml
 * I created this as I use saltstack to routinely gather the list of interfaces on my network; it returns output in yaml, and this allows
 me to search the output, regardless of the editor I have available
 * Future
-[] fuzzy search (partial search) the key list for a key
+- [] fuzzy search (partial search) the key list for a key
