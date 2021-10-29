@@ -2,9 +2,10 @@
 
 ```
 This python 3 program creates a list of keys from a ingested yaml file,
-and then prints the keys in the list in a new file called "keys.txt"
-Then one can ask for the value of a key by typing the key name in the terminal, which it also
-saves in a yaml file called "outputs.yaml
+and then enters the keys as a sorted list in a new file called "keys.txt".
+One can search for all partial matches for a key, and once the key or keys are found provide the value pairs.
+
+These values are also added to a file called "output.yaml" for easy retrieval later
 ```
 ---
 * This code requires python3 and pip3
@@ -12,4 +13,4 @@ saves in a yaml file called "outputs.yaml
 * I created this as I use saltstack to routinely gather the list of interfaces on my network; it returns output in yaml, and this allows
 me to search the output, regardless of the editor I have available
 * Future:
-- [ ] fuzzy search (partial search) the key list for a key
+- [x] Search for all the keys with a partial match (Done 10/29)
